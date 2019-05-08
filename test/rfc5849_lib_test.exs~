@@ -1,0 +1,11 @@
+defmodule Rfc5849.LibTest do
+
+  test "generate signature base string" do
+    :ok
+  end
+
+  test "generate signature" do
+    :ok
+  end
+  
+end

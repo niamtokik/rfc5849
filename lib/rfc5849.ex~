@@ -1,0 +1,18 @@
+defmodule Rfc5849 do
+  @moduledoc """
+  Documentation for Rfc5849.
+  """
+
+  @doc """
+  Hello world.
+
+  ## Examples
+
+      iex> Rfc5849.hello()
+      :world
+
+  """
+  def hello do
+    :world
+  end
+end
