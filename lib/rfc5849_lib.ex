@@ -142,4 +142,9 @@ defmodule Rfc5849.Lib do
     path = struct.path
     query = struct.query
   end
+  
+  @spec authorization_header(Rfc5849.t()) :: string()
+  def authorization_header (struct) do
+    :ok
+  end
 end

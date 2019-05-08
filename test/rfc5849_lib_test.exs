@@ -1,5 +1,7 @@
 defmodule Rfc5849.LibTest do
+  use ExUnit.Case
 
+  
   test "URI" do
     :ok
   end

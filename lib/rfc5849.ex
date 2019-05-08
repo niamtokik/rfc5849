@@ -1,11 +1,14 @@
 defmodule Rfc5849 do
   
   @moduledoc """
-  Documentation for Rfc5849.
+  Rfc5849 implement oauth/1 as GenServer OTP behaviour.
+
+  fixed value
+
+
   """
 
   defstruct [
-    realm: nil,
     consumer_key: nil,
     consumer_secret: nil, # must be protected
     token: nil,
@@ -15,13 +18,7 @@ defmodule Rfc5849 do
     signature: nil,
     signature_method: :hmac_sha1,
     timestamp: nil,
-    nonce: nil,
-    client: %{
-      method: nil,
-      headers: nil,
-      params: nil
-    }
-    request: {}
+    nonce: nil
   ]
   
   use GenServer
